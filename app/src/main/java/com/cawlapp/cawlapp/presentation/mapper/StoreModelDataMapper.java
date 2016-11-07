@@ -37,33 +37,31 @@ public class StoreModelDataMapper {
     if (store == null) {
       throw new IllegalArgumentException("Cannot transform a null value");
     }
-
     StoreModel storeModel = new StoreModel(store.getVendorId());
-    dealModel.setCouponId(deal.getCouponId());
-    dealModel.setVendorId(deal.getVendorId());
-    dealModel.setCouponType(deal.getCouponType());
-    dealModel.setRestrictions(deal.getRestrictions());
-    dealModel.setCouponCode(deal.getCouponCode());
-    dealModel.setExpirationDate(deal.getExpirationDate());
-    dealModel.setAffiliateUrl(deal.getAffiliateUrl());
-    dealModel.setVendorLogoUrl(deal.getVendorLogoUrl());
-    dealModel.setVendorCommission(deal.getVendorCommission());
-    dealModel.setLabel(deal.getLabel());
-    dealModel.setOwnersBenefit(deal.isOwnersBenefit());
+    storeModel.setVendorId(store.getVendorId());
+    storeModel.setName(store.getName());
+    storeModel.setCommission(store.getCommission());
+    storeModel.setExceptionInfo(store.getExceptionInfo());
+    storeModel.setDescription(store.getDescription());
+    storeModel.setGiftCard(store.isGiftCard());
+    storeModel.setFavorite(store.isFavorite());
+    storeModel.setAffiliateUrl(store.getAffiliateUrl());
+    storeModel.setLogoUrl(store.getLogoUrl());
+    storeModel.setOwnersBenefit(store.isOwnersBenefit());
     return storeModel;
   }
 
-  public Collection<DealModel> transform(Collection<Deal> dealCollection) {
-    Collection<DealModel> dealModelCollection;
+  public Collection<StoreModel> transform(Collection<Store> storeCollection) {
+    Collection<StoreModel> storeModelCollection;
 
-    if (dealCollection != null && !dealCollection.isEmpty()) {
-      dealModelCollection = new ArrayList<>();
-      for (Deal deal : dealCollection) {
-        dealModelCollection.add(transform(deal));
+    if (storeCollection != null && !storeCollection.isEmpty()) {
+      storeModelCollection = new ArrayList<>();
+      for (Store store : storeCollection) {
+        storeModelCollection.add(transform(store));
       }
     } else {
-      dealModelCollection = Collections.emptyList();
+      storeModelCollection = Collections.emptyList();
     }
-    return dealModelCollection;
+    return storeModelCollection;
   }
 }
