@@ -1,0 +1,77 @@
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="data_user_cashback_total">data_user_cashback_total</string>
+    <string name="data_set_device">data_set_device</string>
+    <string name="data_user_cashback_list">data_user_cashback_list</string>
+    <string name="data_delete_user_contact">delete_user_contact</string>
+    <string name="data_get_user_profile">data_get_user_profile</string>
+    <string name="data_get_hot_offers">data_get_hot_offers</string>
+    <string name="data_get_vouchers">data_get_vouchers</string>
+    <string name="data_get_user_favorite_stores">data_get_user_favorite_stores</string>
+
+    <string name="data_get_all_stores">data_get_all_stores</string>
+    <string name="data_get_categories">data_get_categories</string>
+    <string name="data_get_search">data_get_search</string>
+    <string name="data_get_deals">data_get_deals</string>
+    <string name="data_get_store_info">data_get_store_info</string>
+    <string name="data_set_fave_store">data_set_fave_store</string>
+    <string name="data_remove_fave_store">data_remove_fave_store</string>
+    <string name="data_get_fave_list">data_get_fave_list</string>
+
+    <!-- Share click -->
+    <string name="tell_title">tell_title</string>
+    <string name="tell_text">tell_text</string>
+    <string name="tell_url">tell_url</string>
+
+    <!-- bundle -->
+    <string name="token">token</string>
+    <string name="url_store">url_store</string>
+    <string name="store_tag">store</string>
+    <string name="category">category</string>
+    <string name="store_id">store_id</string>
+    <string name="deal_id">deal_id</string>
+    <string name="deep_link">deep_link</string>
+    <string name="keyword">keyword</string>
+    <string name="unic_id">unic_id</string>
+    <string name="limit">limit</string>
+    <string name="country">country</string>
+    <string name="category_name">category_name</string>
+    <string name="all">all</string>
+
+    <string name="device_delete">device_delete</string>
+    <string name="device_type">device_type</string>
+    <string name="device_type_android">android</string>
+
+
+
+    <string name="text">text</string>
+    <string name="title">title</string>
+    <string name="data">data</string>
+    <string name="event">event</string>
+    <string name="store">store</string>
+    <string name="chat">chat</string>
+    <string name="cashback">cashback</string>
+    <string name="userName">userName</string>
+    <string name="userEmail">userEmail</string>
+    <string name="userCashback">usercachback</string>
+    <string name="udid">udid</string>
+
+    <string name="search_gridview_num_columns">1</string>
+    <string name="land_search_gridview_num_columns">2</string>
+    <string name="tablet_search_gridview_num_columns">3</string>
+
+    <string name="tell_friends_sms">sms</string>
+    <string name="tell_friends_sms_body">sms_body</string>
+    <string name="tell_friends_vnd_android">vnd.android-dir/mms-sms</string>
+    <string name="cashback_limit">all</string>
+
+    <string name="facebook_app_id" translatable="false">1062148670538923</string>
+
+    <!-- exeption -->
+    <string name="exeption_not_controller">Not controller. Add Controller in class Factory_item</string>
+    <string name="exeption_not_items">Not items. Add Item in class Factory_item</string>
+    <string name="exeption_not_bitmap">Not bitmap. Add bitmap in class Factory_item</string>
+    <string name="exeption_menu_create">Not menu create.</string>
+</resources>

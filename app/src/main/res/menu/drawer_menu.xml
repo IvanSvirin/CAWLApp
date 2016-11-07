@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/grp1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_featured"
+            android:icon="@drawable/ic_menu_one"
+            android:title="@string/menu_one" />
+        <item
+            android:id="@+id/item_all_stores"
+            android:icon="@drawable/ic_menu_two"
+            android:title="@string/menu_two" />
+        <item
+            android:id="@+id/item_categories"
+            android:icon="@drawable/ic_menu_three"
+            android:title="@string/menu_three" />
+        <item
+            android:id="@+id/item_tell_a_friend"
+            android:icon="@drawable/ic_menu_four"
+            android:title="@string/menu_four" />
+        <item
+            android:id="@+id/item_account"
+            android:icon="@drawable/ic_menu_five"
+            android:title="@string/menu_five" />
+    </group>
+
+</menu>

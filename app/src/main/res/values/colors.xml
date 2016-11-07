@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- default colors -->
+    <color name="colorPrimary">#2397f3</color>
+
+    <color name="colorPrimaryLight">#99BAE8</color>
+    <color name="colorPrimaryDark">#3476d1</color>
+    <color name="colorAccent">#2598f3</color>
+    <!--color name="colorAccent">#64B5F6</color-->
+
+    <color name="color_background_fragment">#e7e7e7</color>
+
+    <color name="colorPrimaryStore">#c10202</color>
+    <color name="colorPrimaryLightStore">#d44e4e</color>
+    <color name="colorPrimaryDarkStore">#7d0505</color>
+    <color name="colorAccentStore">#2397f3</color>
+
+    <!-- my colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="cash_back_color">#ff4545</color>
+    <color name="coupon_color">#3cb8ed</color>
+    <color name="toolbar_invisible">#00ffffff</color>
+    <color name="gray">#d1d1d1</color>
+    <color name="black">#000000</color>
+
+    <!--tell friends -->
+    <color name="cardview_initial_background">#ececec</color>
+
+    <!--my cash back -->
+    <color name="cash_back_lable_user_data">#64B5F6</color>
+    <color name="cash_back_text">#000000</color>
+    <color name="cash_back_line">#8f8585</color>
+    <color name="cash_back_button">#e0e0e0</color>
+    <color name="cash_back_text_comment">#424242</color>
+    <color name="cash_back_shopping_trips">#424242</color>
+
+</resources>

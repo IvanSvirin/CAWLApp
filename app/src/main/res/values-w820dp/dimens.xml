@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--drawer-->
+    <dimen name="navigation_width">320dp</dimen>
+    <dimen name="content_padding">128dp</dimen>
+    <dimen name="header_padding_left">176dp</dimen>
+    <dimen name="header_padding_right">166dp</dimen>
+
+</resources>

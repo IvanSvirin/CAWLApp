@@ -1,0 +1,119 @@
+<resources>
+
+    <!-- default strings -->
+    <string name="company_logo">Company Logo</string>
+    <!-- menu items -->
+    <string name="menu_one">Featured</string>
+<!--    <string name="menu_one_tabs_one">menu_one_tabs_one</string>-->
+    <string name="menu_two">All Stores</string>
+    <string name="menu_three">Categories</string>
+    <string name="menu_four">Tell a Friend</string>
+    <string name="menu_five">My Account</string>
+
+    <!-- additional items -->
+    <string name="additional_shopping_history">Shopping History</string>
+    <string name="additional_push_notification">Push Notification</string>
+    <string name="additional_hot_deals_fragment">Hot Deals Fragment</string>
+    <string name="additional_favorites_fragment">Favorites Fragment</string>
+    <string name="additional_store_fragment">Store</string>
+    <string name="additional_webstore_fragment">WebStore</string>
+    <string name="additional_pre_search_fragment">PreSearch</string>
+    <string name="additional_search_fragment">Search</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_reffering_member_email">Referring Member Email (optional)</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="send_password_reset">Send password reset</string>
+
+       <!-- mStoresList strings -->
+
+    <string name="shop_now">SHOP NOW</string>
+    <string name="shop_now_button_label">Shop now</string>
+    <string name="network_error_title">Network error</string>
+    <string name="network_error_text">Check your network connection</string>
+    <string name="sign_up_button">Sign Up</string>
+    <string name="log_in_button">Log In</string>
+    <string name="regular_expression_literal">[A-Za-z]</string>
+    <string name="default_hotdeals_card_description">35% Off Fine Art, Prints, Decorative Pieces and more</string>
+    <string name="search_toolbar_title">All Results stores for \"bag\"</string>
+    <string name="allstores_toolbar_title">All Stores</string>
+    <string name="webstore_toolbar_title">Macys</string>
+    <string name="webstore_toolbar_cashback">2.5% CASH BACK</string>
+
+    <string name="favorites_log_in">You must be logged in to see favorite stores</string>
+    <string name="favorites_no_favorites">You have no favorite stores</string>
+
+
+    <string name="search_empty_result">Result is empty</string>
+
+    <string name="categories">Categories</string>
+
+    <string name="exception">KNOWN EXCEPTIONS</string>
+    <string name="known_exceptions">Cash back is not avaiable on the purchase of gift certificates, adjustments,reorders, corporate gift cards, matteresses of furniture.</string>
+    <string name="store_description">STORE DESCRIPTION</string>
+
+    <!-- cash back -->
+    <string name="cashback_INFO">INFO</string>
+    <string name="cashback_User_NAME">User Name</string>4
+    <string name="cashback_Email">E-mail</string>
+    <string name="cashback_CASH_BACK_ACTIVITY">CASH BACK ACTIVITY</string>
+    <string name="cashback_text_MyCashBack">My Cash Back</string>
+    <string name="cashback_ShoppingHistory">Shopping history</string>
+    <string name="cashback_NOTIFICATION_SETTINGS">NOTIFICATION SETTINGS</string>
+    <string name="cashback_text_CashBackAlerts">Cash Back Alerts</string>
+    <string name="cashback_text_NotificationWhenYou">Notification when you earn Cash Back</string>
+    <string name="cashback_history_shopping_trips">Shopping Trips:</string>
+    <string name="cashback_history_shopping_date">Date: </string>
+    <string name="cashback_history_shopping_time">Time: </string>
+    <string name="cashback_error_device_token">Error.</string>
+    <string name="cashback_error_device_token_text">Try again late.</string>
+    <string name="cashback_error_device_token_button">OK</string>
+
+    <string name="menu_cashback_user_name">User name</string>
+    <string name="menu_cashback_user_email">User E-mail</string>
+    <string name="menu_cashback_user_cash">$</string>
+
+    <!-- cash back RateTheApp-->
+    <string name="rta_dialog_title">Rate this app</string>
+    <string name="rta_dialog_message">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="button_ok">Send Email</string>
+    <string name="rta_dialog_cancel">Later</string>
+    <string name="rta_dialog_no">No, thanks</string>
+
+	    <!-- tell friends -->
+    <string name="tell_friends_text">Refer friends to our Company. Members earn 100 shares of stock for each friend who shops and earns Cash Back</string>
+
+    <string name="tell_friends_text_share">Hello! App white lable android.</string>
+    <string name="tell_friends_title_share">White lable android</string>
+    <string name="tell_friends_select_email">Select Email Client</string>
+    <string name="tell_friends_select_sms">Select SMS Client</string>
+    <string name="tell_friends_text_facebook">Facebook</string>
+    <string name="tell_friends_text_twitter">Twitter</string>
+    <string name="tell_friends_text_SMS">SMS</string>
+    <string name="tell_friends_text_email">Email</string>
+    <string name="tell_friends_email_hint">Friend\'s email</string>
+    <string name="tell_friends_invalid_email">An invalid e-mail</string>
+    <string name="not_available_fb_share">Sorry. But you don\'t ability send the invite to your friends.</string>
+    <!-- cash back Menu-->
+    <string name="cashback_action_rta">Rate the app</string>
+    <string name="cashback_action_log_out">Log Out</string>
+
+    <!-- exeption -->
+    <string name="exeption_get_data_responce_title">Exeption</string>
+    <string name="exeption_get_data_responce_text">Error response from server</string>
+    <string name="exeption_get_data_responce_button">OK</string>
+    <string name="exeption_success_false">Response from server was null</string>
+
+    <string name="sign_up_tab">Sign up</string>
+    <string name="log_in_tab">Log in</string>
+    <string name="featured_tab_hot_deals">Hot Deals</string>
+    <string name="featured_tab_favorites">Favorite</string>
+    <string name="authorization_toolbar_title">Company Logo</string>
+    <string name="password_reset_toolbar_title">Request Password Reset</string>
+
+	<!--push -->
+    <string name="push_INFO">Push</string>
+    <string name="push_not_push">Currently there are no new messages</string>
+    <string name="push_new">New Push notification</string>
+</resources>

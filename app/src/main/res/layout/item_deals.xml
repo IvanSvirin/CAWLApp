@@ -1,0 +1,89 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/cardview_hot_deals_height"
+    android:background="@color/white"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="@dimen/cardview_default_elevation"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="@dimen/default_padding">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/fragment_hot_deals_logo"
+            android:layout_width="100dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/fragment_hot_deals_shop_now"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/shop_now"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccentStore"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fragment_hot_deals_cashback_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_hot_deals_logo"
+            android:layout_marginTop="6dp" />
+
+        <TextView
+            android:id="@+id/fragment_hot_deals_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_hot_deals_cashback_type"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:maxLines="3"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/fragment_hot_deals_exp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_hot_deals_description"
+            android:layout_marginTop="6dp"
+            android:maxLength="15" />
+
+        <TextView
+            android:id="@+id/fragment_hot_deals_cash_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/cash_back_color"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/fragment_hot_deals_share"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_action_share" />
+
+        <TextView
+            android:id="@+id/fragment_hot_deals_coupon"
+            android:layout_width="wrap_content"
+            android:layout_height="23dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="8dp"
+            android:layout_toLeftOf="@id/fragment_hot_deals_share"
+            android:background="@drawable/coupon"
+            android:textColor="@color/coupon_color"
+            android:textSize="12dp"
+            android:visibility="invisible" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
